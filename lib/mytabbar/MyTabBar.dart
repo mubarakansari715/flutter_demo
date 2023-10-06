@@ -13,7 +13,7 @@ class MyTabBar extends StatelessWidget {
           appBar: AppBar(
             title: const Text("Tab Bar"),
             bottom: TabBar(
-              tabs: [
+              tabs: const [
                 Tab(
                   text: "Home",
                   icon: Icon(Icons.home),
